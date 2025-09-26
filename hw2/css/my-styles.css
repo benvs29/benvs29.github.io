@@ -94,14 +94,16 @@ main a:hover {
     grid-template-columns: auto auto;
     justify-content: space-evenly;
     row-gap: 20px;
+    padding: 20px;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 30px;
+    gap: 30px;
+    justify-content: flex-start;
     align-items: center;
+    padding:20px
 }
 
 main > div img {
